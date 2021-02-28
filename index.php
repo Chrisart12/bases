@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <h1>Apprendre le PHP</h1>
-    
+    <?php echo "je suis un mec sympa"; ?>
+    <div class="<?= 'test';?> <?= 'test2';?>">tototo</div>
 </body>
 </html>
